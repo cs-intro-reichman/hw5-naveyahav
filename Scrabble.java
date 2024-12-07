@@ -51,7 +51,7 @@
  
 	 // Checks if the given word is in the dictionary.
 	 public static boolean isWordInDictionary(String word) {
-		 for (int i=0; i < DICTIONARY.length; i++) {
+		 for (int i=0; i < NUM_OF_WORDS; i++) {
 			 if(word.equals(DICTIONARY[i]))
 				 return true;
 		 }
@@ -148,7 +148,7 @@
 			 //// Replace the following break statement with code
 			 //// that completes the game playing loop
 			 else { 
-				System.out.println("Wrong input :("); 
+				System.out.println("Wrong Input :(");
 			 }
 		 }
 	 }
